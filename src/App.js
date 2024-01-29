@@ -1,8 +1,6 @@
 import React,{ useEffect } from 'react';
 import { BrowserRouter as Router ,Routes, Route, Navigate } from 'react-router-dom';
 
-// Using AOS for animation
-
 import GlobalStyle from './globalstyles';
 import Home from './components/home';
 import ModelS from './components/Model-S';
