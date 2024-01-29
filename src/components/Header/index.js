@@ -17,18 +17,11 @@ const Header = () => {
                 <img src='/images/logo.svg' alt='logo'/>
             </Link>
             </div>
-            <Content>
-                <Link to='/models'>Model S</Link>
-                <Link to='/model3'>Model 3</Link>
-                <Link to='/modelx'>Model X</Link>
-                <Link to='/modely'>Model Y</Link>
-                <Link to='#'>Solar Roof</Link>
-                <Link to='#'>Solar Panels</Link>
-            </Content>
+            {/* <Content>
+                <div></div>
+            </Content> */}
             <Content1>
-                <a href='#' className='none' >Shop</a>
-                <Link to='/login' className='none'>Account</Link>
-                <a href='#' onClick={()=> setOpen(true)} >Menu</a>
+                <a href='#' onClick={()=> setOpen(true)} >Event</a>
             </Content1>
             {open && 
             <div className='top'>
