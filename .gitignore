@@ -1,1 +1,12 @@
-node_modules
+# Ignore node_modules directory
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+
+# Ignore log files
+*.log
