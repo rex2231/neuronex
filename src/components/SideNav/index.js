@@ -8,28 +8,25 @@ function SideNav({ show }) {
     return (
         <Wrapper show={show}>
             <Content>
-                <Link to='/models'><li className='half'>Model S</li></Link>
-                <Link to='/model3'><li className='half'>Model 3</li></Link>
-                <Link to='/modelx'><li className='half'>Model X</li></Link>
-                <Link to='/modely'><li className='half'>Model Y</li></Link>
-                <li className='half'>Solar Roof</li>
-                <li className='half'>Solar Panels</li>
-                <li>Existing Inventory</li>
-                <li>Used Inventory</li>
-                <li>Trade-In</li>
-                <li>Cybertruck</li>
-                <li>Roadster</li>
-                <li>Semi</li>
-                <li>Charging</li>
-                <li>Powerwall</li>
-                <li>Commercial Energy</li>
-                <li>Utilities</li>
-                <li>Find Us</li>
-                <li>Support</li>
-                <li>Investor Relations</li>
-                <li className='half' >Shop</li>
-                <Link to='/login'><li className='half'>Account</li></Link>
-                <li className='half'>More</li>
+                <div style={{color:"black"}}>WorkShop</div>
+                <Link to='/models'><li>UI/UX</li></Link>
+                <Link to='/model3'><li>AR/VR</li></Link>
+                <div style={{color:"black"}}>Technical Event</div>
+                <Link to='/modelx'><li>Bug Bash Challenge</li></Link>
+                <Link to='/modely'><li>Utopia UI</li></Link>
+                <Link to='/models'><li>Code Sprint Shutdown</li></Link>
+                <Link to='/model3'><li>Paper Pinnacle</li></Link>
+                <Link to='/modelx'><li>Tech Unleashed Expo</li></Link>
+                <Link to='/modely'><li>Marvel Mastery</li></Link>
+                <div style={{color:"black"}}>Non-Technical Event</div>
+                <Link to='/models'><li>FFXBGMI</li></Link>
+                <Link to='/model3'><li>Isekai-Baka's</li></Link>
+                <Link to='/modelx'><li>Flicker Fusion</li></Link>
+                <Link to='/modely'><li>Vibrato Vision</li></Link>
+                <Link to='/models'><li>Box Bash League</li></Link>
+                <Link to='/model3'><li>Shadown Conspiracy</li></Link>
+                <Link to='/modelx'><li>Meme Mind Summit</li></Link>
+                <Link to='/modely'><li>Frame By Frame</li></Link>
             </Content>
         </Wrapper>
     )
