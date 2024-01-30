@@ -1,17 +1,10 @@
-import React,{ useEffect } from 'react';
+
 import { BrowserRouter as Router ,Routes, Route, Navigate } from 'react-router-dom';
 
 import GlobalStyle from './globalstyles';
 import Home from './components/home';
-import ModelS from './components/Model-S';
-import Model3 from './components/Model-3';
-import ModelX from './components/Model-X';
-import ModelY from './components/Model_Y';
-import Signup from './components/Signup';
 
-import { useSelector,useDispatch } from 'react-redux';
-import { selectUser,login,logout } from './features/userSlice';
-import { auth } from './components/firebase';
+
 import UIUX from './components/UIUX';
 import ARVR from './components/ARVR';
 import BUG from './components/BUG';
@@ -21,30 +14,15 @@ import PAPER from './components/PAPER';
 import TECH from './components/TECH';
 import MARVEL from './components/MARVEL';
 import FFBGMI from './components/FFBGMI';
+import ISEKAI from './components/ISEKAI';
+import FLICKER from './components/FLICKER';
+import VIBRATO from './components/VIBRATO';
+import FRAME from './components/FRAME';
+import MEME from './components/MEME';
+import SHADOW from './components/SHADOW';
+import BOX from './components/BOX';
 
 function App() {
-
-  const user = useSelector(selectUser)
-
-  const dispatch = useDispatch()
-
-  useEffect(() => {
-    auth.onAuthStateChanged((userAuth) => {
-      if (userAuth) {
-        // User is signed in
-        dispatch(
-          login({
-            email: userAuth.email,
-            uid: userAuth.uid,
-            displayName: userAuth.displayName,
-          })
-        )
-      } else {
-        // User is signed out
-        dispatch(logout())
-      }
-    })
-  }, [dispatch])
 
   return (
     <Router>
@@ -60,13 +38,13 @@ function App() {
           <Route path="/tech-unleashed-expo" element={<TECH/>} />
           <Route path="/marvel-mastery" element={<MARVEL/>} />
           <Route path="/ff-bgmi" element={<FFBGMI/>} />
-          <Route path="/isekai-baka" element={<Signup/>} />
-          <Route path="/flicker-fusion" element={<ModelS/>} />
-          <Route path="/vibrato-vision" element={<Model3/>} />
-          <Route path="/box-bash-league" element={<ModelX/>} />
-          <Route path="/shadow-conspiracy" element={<ModelY/>} />
-          <Route path="/meme-mind-summit" element={<Signup/>} />
-          <Route path="/frame-by-frame" element={<Signup/>} />
+          <Route path="/isekai-baka" element={<ISEKAI/>} />
+          <Route path="/flicker-fusion" element={<FLICKER/>} />
+          <Route path="/vibrato-vision" element={<VIBRATO/>} />
+          <Route path="/box-bash-league" element={<BOX/>} />
+          <Route path="/shadow-conspiracy" element={<SHADOW/>} />
+          <Route path="/meme-mind-summit" element={<MEME/>} />
+          <Route path="/frame-by-frame" element={<FRAME/>} />
         </Routes>
         <GlobalStyle/>
       </div>
