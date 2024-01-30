@@ -2,28 +2,32 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Wrapper,ContentTop,ContentMid,Content } from './section.style'
 
-function Section({ title,desc,link,leftbtn,rightbtn,arrow,range,speed,hp,top }) {
-
+function Section({ title,desc,backgroundImg,link,leftbtn,rightbtn,arrow,range,speed,hp,top }) {
+   
     return (
-        <Wrapper >
+        <Wrapper>
             <ContentTop>
-                <h1>{title}</h1>
-                <p>{desc} <a href='#'>{link}</a></p>
-            </ContentTop>
-
-            <div>
+                <h2>{title}</h2>
+                <p>{desc}</p>
+            </ContentTop> 
+            <div className='arrow-space'>
+                {!arrow &&
+                <ContentMid className='image-element'>
+                        <img className="imageElement" src={`/images/${backgroundImg}`}/>
+                </ContentMid>}
                 <ContentMid className={arrow ? '' : 'buttons'} >
+                
                     {leftbtn &&
-                    <div className='right'>
-                        <button>MORE DETAILS</button>
+                        <div className='right'>
+                            <Link to={{ pathname: link }}><button>MORE DETAILS</button></Link>
                     </div>
                     }
                     {rightbtn && 
-                        <Link to="/ui-ux">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-jhPrAdL04xyLuAV0OkBwy0fTtSHjtvkeJ9drC2VCrxMW-Q/viewform?usp=sf_link">
                         <div className='left'>
-                            <button>REGISTER</button>
+                            <button>REGISTER NOW</button>
                         </div>
-                        </Link>
+                        </a>
                     }
                 </ContentMid>
                 {range && 

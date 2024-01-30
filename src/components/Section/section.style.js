@@ -8,42 +8,34 @@ export const Wrapper = styled.div`
     background-repeat: no-repeat;
     background-color:  #e9ebf3;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-
-    img{
+    img {
         margin-top: 15px;
         margin-bottom: 10px;
         height: 50px;
-        animation: animate infinite 1.8s;
-    }
-    .arrow{
-        display: flex;
-        justify-content: center;
-        color: black;
     }
 
-    .buttons{
+    .bg-img {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .arrow {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        color: black;
+        height: 72vh;
+    }
+
+    .buttons {
         margin-bottom: 60px;
     }
 
-
-    @keyframes animate {
-        0%, 20%, 50%, 80%, 100% {
-            transform: translateY(0);
-        }
-        40% {
-            transform: translateY(5px);
-        }
-        60% {
-            transform: translateY(3px);
-        }
-    }
-    @media screen and (max-width: 600px){
-        img{
+    @media screen and (max-width: 600px) {
+        img {
             height: 40px;
+            width: fit;
         }
     }
 `;
@@ -51,54 +43,43 @@ export const Wrapper = styled.div`
 export const ContentTop = styled.div`
     text-align: center;
     padding-top: 16vh;
-    h1{
+    
+    h1 {
         font-weight: 400;
         letter-spacing: 0.5px;
         font-size: 2.5rem;
         color: ;
     }
-    p{
+
+    p {
         font-size: 0.9rem;
         padding: 5px;
         color: blue;
     }
-    a{
+
+    a {
         text-decoration: underline;
         text-underline-position: under;
         display: inline-block;
         color: white;
         transition: color 200ms ease-in;
 
-        :hover{
+        :hover {
             color: var(--teslaColor);
             text-decoration-thickness: 2px;
-        }
-    }
-
-    animation: transform 1s;
-    animation-timing-function: ease-in;
-    @keyframes transform {
-        0%{
-            opacity: 0;
-        }
-        50%{
-            opacity: 0.3;
-        }
-        100%{
-            opacity: 1;
         }
     }
 `;
 
 export const ContentMid = styled.div`
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
-    button{
+    button {
         padding: 12px 20px;
         width: 260px;
+        height: 35px;
         border-radius: 20px;
         outline: none;
         border: none;
@@ -106,73 +87,83 @@ export const ContentMid = styled.div`
         font-weight: 400;
         letter-spacing: 0.6px;
         opacity: 0.9;
-        :hover{
+
+        margin: 10px;
+
+        :hover {
             cursor: pointer;
         }
     }
 
-    .left button{
-        background-color: rgba(23,26,32,1);
+    .left button {
+        background-color: rgba(23, 26, 32, 1);
         color: white;
-        margin-left: 25px;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 600px) {
         flex-direction: column;
-        .left , .right{
+        .left, .right {
             display: flex;
             justify-content: center;
         }
-        .left button{
+        .left button {
             margin-right: 0;
             margin-bottom: 15px;
         }
-        button{
+        button {
             width: 90%;
             padding: 5px 10px;
         }
     }
 
-    animation: transform 1s;
-    animation-timing-function: ease-in;
-    @keyframes transform {
-        0%{
-            opacity: 0;
-        }
-        50%{
-            opacity: 0.3;
-        }
-        100%{
-            opacity: 1;
+    .imageElement {
+        width: 40vw;
+        height: 60vh;
+    }
+
+    @media screen and (min-width: 650px){
+        .imageElement {
+            width:30vw  ;
+            height:60vh;
         }
     }
-    a {
-        color:white;
-        text-decoration:none;
-    } 
+    
+    @media screen and (max-width: 750px){
+        .imageElement {
+            width:100vw;
+            height:400px;
+        }
+    }
+    
+
+    .image-element {
+        animation: none;
+    }
 `;
 
 export const Content = styled.div`
-
-.Info-bar{
+    .Info-bar {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        h2{
-        color: white;
-        font-weight: 400;
-        font-size: 1.8rem;
-        letter-spacing: 0.6px;
+
+        h2 {
+            color: white;
+            font-weight: 400;
+            font-size: 1.8rem;
+            letter-spacing: 0.6px;
         }
-        p{
+
+        p {
             padding-top: 8px;
             color: white;
             font-weight: 200;
             font-size: 0.8rem;
             letter-spacing: 0.3px;
         }
-        button{
+
+        button {
             outline: none;
             border: white solid 4px;
             border-radius: 20px;
@@ -181,58 +172,50 @@ export const Content = styled.div`
             color: white;
             transition: all 300ms ease-in;
             cursor: pointer;
-            :hover{
+
+            :hover {
                 background-color: white;
                 color: #141414;
             }
         }
 
-        @media screen and (max-width: 600px){
-            .hp{
+        @media screen and (max-width: 600px) {
+            .hp {
                 display: none;
             }
-            .order_btn{
+
+            .order_btn {
                 display: flex;
                 justify-content: center;
                 width: 100%;
                 margin-top: 20px;
             }
-            button{
+
+            button {
                 width: 90%;
                 padding: 10px auto;
             }
-            .Specs{
+
+            .Specs {
                 margin: 10px 12px;
             }
-            h2{
+
+            h2 {
                 font-size: 1.5rem;
             }
-            p{
+
+            p {
                 font-size: 0.7rem;
             }
         }
-
     }
-    .Specs{
+
+    .Specs {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 10px 40px;
-    }
-
-    animation: transform 1s;
-    animation-timing-function: ease-in;
-    @keyframes transform {
-        0%{
-            opacity: 0;
-        }
-        50%{
-            opacity: 0.3;
-        }
-        100%{
-            opacity: 1;
-        }
     }
 `;
