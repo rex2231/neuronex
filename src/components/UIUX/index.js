@@ -16,15 +16,11 @@ const UIUX = () =>{
             <Header/>
             <Section 
                 title="UI | UX" 
-                backgroundImg="model_y_1.jpeg" 
-                arrow="true" 
+                backgroundImg="model_y_1.jpeg"
                 range='330'
                 speed='3.5'
                 top='155'
             />
-            <Interior/>
-            <Specs/>
-            <Footer bottom='bottom'/>
         </Wrapper>
     )
 }
