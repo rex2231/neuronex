@@ -7,13 +7,20 @@ import ModelS from './components/Model-S';
 import Model3 from './components/Model-3';
 import ModelX from './components/Model-X';
 import ModelY from './components/Model_Y';
-import Login from './components/Login';
 import Signup from './components/Signup';
-import Account from './components/Account';
 
 import { useSelector,useDispatch } from 'react-redux';
 import { selectUser,login,logout } from './features/userSlice';
 import { auth } from './components/firebase';
+import UIUX from './components/UIUX';
+import ARVR from './components/ARVR';
+import BUG from './components/BUG';
+import UTOPIA from './components/UTOPIA';
+import CODESPRINT from './components/CODESPRINT';
+import PAPER from './components/PAPER';
+import TECH from './components/TECH';
+import MARVEL from './components/MARVEL';
+import FFBGMI from './components/FFBGMI';
 
 function App() {
 
@@ -43,32 +50,24 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          
           <Route path='/' element={<Home/>}/>
-          <Route path="/models" element={<ModelS/>} />
-          <Route path="/model3" element={<Model3/>} />
-          <Route path="/modelx" element={<ModelX/>} />
-          <Route path="/modely" element={<ModelY/>} />
-          <Route path="/signup" element={<Signup/>} />
-          <Route 
-            path="/teslaaccount" 
-            element={
-              <main>
-                {user ? <Account/> : <Navigate to='/login'/>}
-              </main>
-            }
-          />
-          <Route 
-            path="/login" 
-            element={
-              <main>
-                {user ? <Navigate to='/teslaaccount'/> : <Login/>}
-              </main>
-            } 
-          />
-
+          <Route path="/ui-ux" element={<UIUX/>} />
+          <Route path="/ar-vr" element={<ARVR/>} />
+          <Route path="/bug-bash-challenge" element={<BUG/>} />
+          <Route path="/utopia-ui" element={<UTOPIA/>} />
+          <Route path="/code-sprint-shutdown" element={<CODESPRINT/>} />
+          <Route path="/paper-pinnacle" element={<PAPER/>} />
+          <Route path="/tech-unleashed-expo" element={<TECH/>} />
+          <Route path="/marvel-mastery" element={<MARVEL/>} />
+          <Route path="/ff-bgmi" element={<FFBGMI/>} />
+          <Route path="/isekai-baka" element={<Signup/>} />
+          <Route path="/flicker-fusion" element={<ModelS/>} />
+          <Route path="/vibrato-vision" element={<Model3/>} />
+          <Route path="/box-bash-league" element={<ModelX/>} />
+          <Route path="/shadow-conspiracy" element={<ModelY/>} />
+          <Route path="/meme-mind-summit" element={<Signup/>} />
+          <Route path="/frame-by-frame" element={<Signup/>} />
         </Routes>
-
         <GlobalStyle/>
       </div>
     </Router>
