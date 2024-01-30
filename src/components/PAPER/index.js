@@ -17,7 +17,6 @@ const PAPER = () =>{
             <Section 
                 title="PAPER PINNACLE" 
                 backgroundImg="model_y_1.jpeg" 
-                arrow="true" 
                 range='330'
                 speed='3.5'
                 top='155'

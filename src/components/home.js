@@ -7,62 +7,61 @@ import Footer from './Footer';
 
 function Home() {
 
-    document.title = "Electric Cars, Solar & Clean Energy | Tesla";
+    document.title = "Neuronex24";
     return (
         <>
         <Header/>
         <Wrapper>
             <Content>
-                <Section title="NEURONEX" desc="Order Online for " link="Touchless Delivery" arrow="true"/>
+                <Section title="NEURONEX" desc="Order Online for " link="ui-ux" arrow="true" backgroundImg/>
             </Content>
             <Content>
-                <Section title="UI | UX" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+                <Section title="UI | UX" desc="From pixels to perfection" link="/ui-ux" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="ui.png"/>
             </Content>
             <Content>
-                <Section title="AR | VR" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+                <Section title="AR | VR" desc="Unlock Virtual Horizons!" link="/ar-vr" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="ar.png"/>
             </Content>
             <Content>
-                <Section title="BUG BASH CHALLENGE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+                <Section title="BUG BASH CHALLENGE" desc="Our code, your solution" link="/bug-bash-challenge" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="bug.png"/>
             </Content>
             <Content>
-                <Section title="UTOPIA UI" desc="Lowest Cost Solar Panels in America" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-panel.jpg"/>
+                <Section title="UTOPIA UI" desc="Where pixels meet purpose" link="/utopia-ui" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="ui.png"/>
             </Content>
             <Content>
-                <Section title="CODE SPRINT SHUTDOWN" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
+                <Section title="CODE SPRINT SHUTDOWN" desc="Hack the impossible" link="/code-sprint-shutdown" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="coding.png"/>
             </Content>
             <Content>
-                <Section title="PAPER PINNACLE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-3.jpg" arrow="true"/>
+                <Section title="PAPER PINNACLE" desc="Ideas and innovations ignite" link="/paper-pinnacle" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="paper.png" />
             </Content>
             <Content>
-                <Section title="TECH UNLEASHED EXPO" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+                <Section title="TECH UNLEASHED EXPO" desc="Unleash your potential! Unleash your tech!" link="/tech-unleashed-expo" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="tech.png"/>
             </Content>
             <Content>
-                <Section title="MARVEL MYSTERY" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+                <Section title="MARVEL MYSTERY" desc="A battleground for the fastest nerves in your brain " link="/marvel-mastery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="marvel.png"/>
             </Content>
             <Content>
-                <Section title="FF X BGMI" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+                <Section title="FF X BGMI" desc="Eat,Sleep,BGMI,Free Fire,Repeat" link="/ff-bgmi" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="ff.png"/>
             </Content>
             <Content>
-                <Section title="ISEKAI-BAKA'S" desc="Lowest Cost Solar Panels in America" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-panel.jpg"/>
+                <Section title="ISEKAI-BAKA'S" desc="The only true fear is the fear of the unknown" link="/isekai-baka" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="isekai.png"/>
             </Content>
             <Content>
-                <Section title="FLICKER FUSION" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
+                <Section title="FLICKER FUSION" desc="Dive into the reel of emotions" link="/flicker-fusion" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="flicker.png"/>
             </Content>
             <Content>
-                <Section title="VIBRATO VISION" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-3.jpg" arrow="true"/>
+                <Section title="VIBRATO VISION" desc="Beat the Beats, Master the Melodies!" link="/vibrato-vision" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="vibrato.png" />
             </Content>
             <Content>
-                <Section title="BOX BASH CHALLENGE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+                <Section title="BOX BASH CHALLENGE" desc="Order Online for " link="/box-bash-league" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="box.png"/>
             </Content>
             <Content>
-                <Section title="SHADOWN CONSPIRACY" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+                <Section title="SHADOWN CONSPIRACY" desc="In the game of shadows,the only rule is strike first" link="/shadow-conspiracy" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="shadow.png"/>
             </Content>
             <Content>
-                <Section title="MEME MIND SUMMIT" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+                <Section title="MEME MIND SUMMIT" desc="Who needs words when you have memes" link="/meme-mind-summit" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="meme.png"/>
             </Content>
             <Content>
-                <Section title="FRAME BY FRAME" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
-                <Footer/>
+                <Section title="FRAME BY FRAME" desc="In the Web of Victory, Every connection counts!" link="/frame-by-frame" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="frame.png"/>
             </Content>
         </Wrapper>
         </>
