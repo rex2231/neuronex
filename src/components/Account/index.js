@@ -32,7 +32,7 @@ const Account = () =>{
         .catch((error) => alert(error.message))
     }
 
-    document.title='Tesla Account | Tesla';
+    document.title='Tesla Acc';
     return(
         <>
         <Header/>
