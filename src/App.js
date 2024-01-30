@@ -14,6 +14,13 @@ import { selectUser,login,logout } from './features/userSlice';
 import { auth } from './components/firebase';
 import UIUX from './components/UIUX';
 import ARVR from './components/ARVR';
+import BUG from './components/BUG';
+import UTOPIA from './components/UTOPIA';
+import CODESPRINT from './components/CODESPRINT';
+import PAPER from './components/PAPER';
+import TECH from './components/TECH';
+import MARVEL from './components/MARVEL';
+import FFBGMI from './components/FFBGMI';
 
 function App() {
 
@@ -46,13 +53,13 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path="/ui-ux" element={<UIUX/>} />
           <Route path="/ar-vr" element={<ARVR/>} />
-          <Route path="/bug-bash-challenge" element={<ModelX/>} />
-          <Route path="/code-sprint-shutdown" element={<ModelY/>} />
-          <Route path="/utopia-ui" element={<Signup/>} />
-          <Route path="/paper-pinnacle" element={<ModelS/>} />
-          <Route path="/tech-unleashed-expo" element={<Model3/>} />
-          <Route path="/marvel-mastery" element={<ModelX/>} />
-          <Route path="/ff-bgmi" element={<ModelY/>} />
+          <Route path="/bug-bash-challenge" element={<BUG/>} />
+          <Route path="/utopia-ui" element={<UTOPIA/>} />
+          <Route path="/code-sprint-shutdown" element={<CODESPRINT/>} />
+          <Route path="/paper-pinnacle" element={<PAPER/>} />
+          <Route path="/tech-unleashed-expo" element={<TECH/>} />
+          <Route path="/marvel-mastery" element={<MARVEL/>} />
+          <Route path="/ff-bgmi" element={<FFBGMI/>} />
           <Route path="/isekai-baka" element={<Signup/>} />
           <Route path="/flicker-fusion" element={<ModelS/>} />
           <Route path="/vibrato-vision" element={<Model3/>} />
