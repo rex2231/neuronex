@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image:  ${props => `url('/images/${props.bg}')`}; //url is by default in public section
+    background-color:  #e9ebf3;
 
     display: flex;
     flex-wrap: wrap;
@@ -22,11 +22,13 @@ export const Wrapper = styled.div`
     .arrow{
         display: flex;
         justify-content: center;
+        color: black;
     }
 
     .buttons{
         margin-bottom: 60px;
     }
+
 
     @keyframes animate {
         0%, 20%, 50%, 80%, 100% {
@@ -53,18 +55,18 @@ export const ContentTop = styled.div`
         font-weight: 400;
         letter-spacing: 0.5px;
         font-size: 2.5rem;
-        color: var(--teslaColor);
+        color: ;
     }
     p{
         font-size: 0.9rem;
         padding: 5px;
-        color: rgba(59, 59, 59, 0.753);
+        color: blue;
     }
     a{
         text-decoration: underline;
         text-underline-position: under;
         display: inline-block;
-        color: rgba(59, 59, 59, 0.753);
+        color: white;
         transition: color 200ms ease-in;
 
         :hover{
@@ -112,7 +114,7 @@ export const ContentMid = styled.div`
     .left button{
         background-color: rgba(23,26,32,1);
         color: white;
-        margin-right: 25px;
+        margin-left: 25px;
     }
 
     @media screen and (max-width: 600px){
@@ -144,6 +146,10 @@ export const ContentMid = styled.div`
             opacity: 1;
         }
     }
+    a {
+        color:white;
+        text-decoration:none;
+    } 
 `;
 
 export const Content = styled.div`
