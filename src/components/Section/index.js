@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Wrapper,ContentTop,ContentMid,Content } from './section.style'
 
-function Section({ title,desc,backgroundImg,link,leftbtn,rightbtn,arrow,range,speed,hp,top }) {
+function Section({ title,desc,link,leftbtn,rightbtn,arrow,range,speed,hp,top }) {
 
     return (
-        <Wrapper bg={backgroundImg} >
+        <Wrapper >
             <ContentTop>
                 <h1>{title}</h1>
                 <p>{desc} <a href='#'>{link}</a></p>
@@ -13,14 +14,16 @@ function Section({ title,desc,backgroundImg,link,leftbtn,rightbtn,arrow,range,sp
             <div>
                 <ContentMid className={arrow ? '' : 'buttons'} >
                     {leftbtn &&
-                    <div className='left'>
-                        <button>{leftbtn}</button>
+                    <div className='right'>
+                        <button>MORE DETAILS</button>
                     </div>
                     }
                     {rightbtn && 
-                        <div className='right'>
-                            <button>{rightbtn}</button>
+                        <Link to="/ui-ux">
+                        <div className='left'>
+                            <button>REGISTER</button>
                         </div>
+                        </Link>
                     }
                 </ContentMid>
                 {range && 

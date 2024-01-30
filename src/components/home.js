@@ -13,25 +13,55 @@ function Home() {
         <Header/>
         <Wrapper>
             <Content>
-                <Section title="Model 3" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-3.jpg" arrow="true"/>
+                <Section title="NEURONEX" desc="Order Online for " link="Touchless Delivery" arrow="true"/>
             </Content>
             <Content>
-                <Section title="Model Y" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+                <Section title="UI | UX" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
             </Content>
             <Content>
-                <Section title="Model S" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+                <Section title="AR | VR" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
             </Content>
             <Content>
-                <Section title="Model X" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+                <Section title="BUG BASH CHALLENGE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
             </Content>
             <Content>
-                <Section title="Solar Panels" desc="Lowest Cost Solar Panels in America" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-panel.jpg"/>
+                <Section title="UTOPIA UI" desc="Lowest Cost Solar Panels in America" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-panel.jpg"/>
             </Content>
             <Content>
-                <Section title="Solar Roof" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
+                <Section title="CODE SPRINT SHUTDOWN" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
             </Content>
             <Content>
-                <Section title="Accessories" leftbtn="SHOP NOW" backgroundImg="accessories.jpg"/>
+                <Section title="PAPER PINNACLE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-3.jpg" arrow="true"/>
+            </Content>
+            <Content>
+                <Section title="TECH UNLEASHED EXPO" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+            </Content>
+            <Content>
+                <Section title="MARVEL MYSTERY" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+            </Content>
+            <Content>
+                <Section title="FF X BGMI" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+            </Content>
+            <Content>
+                <Section title="ISEKAI-BAKA'S" desc="Lowest Cost Solar Panels in America" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-panel.jpg"/>
+            </Content>
+            <Content>
+                <Section title="FLICKER FUSION" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
+            </Content>
+            <Content>
+                <Section title="VIBRATO VISION" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-3.jpg" arrow="true"/>
+            </Content>
+            <Content>
+                <Section title="BOX BASH CHALLENGE" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-y.jpg"/>
+            </Content>
+            <Content>
+                <Section title="SHADOWN CONSPIRACY" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-s.jpg"/>
+            </Content>
+            <Content>
+                <Section title="MEME MIND SUMMIT" desc="Order Online for " link="Touchless Delivery" leftbtn="CUSTOM ORDER" rightbtn="EXISTING INVENTORY" backgroundImg="model-x.jpg"/>
+            </Content>
+            <Content>
+                <Section title="FRAME BY FRAME" desc="Produce Clean Energy From Your Roof" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="solar-roof.jpg"/>
                 <Footer/>
             </Content>
         </Wrapper>
