@@ -100,6 +100,8 @@ export const ContentMid = styled.div`
         color: white;
     }
 
+    
+
     @media screen and (max-width: 600px) {
         flex-direction: column;
         .left, .right {
@@ -123,9 +125,37 @@ export const ContentMid = styled.div`
 
     @media screen and (min-width: 650px){
         .imageElement {
-            width:30vw  ;
+            width:30vw;
             height:60vh;
         }
+        .description-element{
+            align-self: center;
+            width: 700px;
+            margin-left: 60px;
+            font-weight: bold;
+            font-family: sans;
+            font-size: 20px;
+            padding: 100px;
+            padding-right: 0;
+        }
+        .image-container{
+            max-width: 40vw;
+        }
+        .image-element {
+            animation: none;
+            display: flex;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-evenly;
+            min-width: 100vw;
+        }
+        
+
+        .text-element{
+            text-align: justify;
+        }
+    
     }
     
     @media screen and (max-width: 750px){
@@ -133,12 +163,19 @@ export const ContentMid = styled.div`
             width:100vw;
             height:400px;
         }
+        .right button {
+            width: 90vw;
+        }
+        .description-element{
+            display: none;
+            align-self: center;
+        }
+        .image-element {
+            animation: none;
+        }
+    
     }
     
-
-    .image-element {
-        animation: none;
-    }
 `;
 
 export const Content = styled.div`
