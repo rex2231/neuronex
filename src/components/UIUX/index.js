@@ -14,9 +14,6 @@ const UIUX = () =>{
             <Section 
                 title="UI | UX" 
                 backgroundImg="ui.png"
-                range='330'
-                speed='3.5'
-                top='155'
             />
         </Wrapper>
     )
