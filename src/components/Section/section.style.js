@@ -57,7 +57,9 @@ export const ContentTop = styled.div`
         padding: 5px;
         color: blue;
     }
-
+    @media screen and (max-height:670px) {
+      padding-top:10vh;  
+    }
     a {
         text-decoration: underline;
         text-underline-position: under;
@@ -101,7 +103,6 @@ export const ContentMid = styled.div`
         color: white;
     }
 
-    
 
     @media screen and (max-width: 600px) {
         flex-direction: column;
