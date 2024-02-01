@@ -20,7 +20,7 @@ function Section({
         {arrow ? (
           <>
             <h1>{title}</h1>
-            <p>{slogan}</p>
+            <a style={{color:"blue"}} href="https://maps.app.goo.gl/Rj4f8mWVn29UB9g49" target="_blank">{slogan}</a>
           </>
         ) : (
           <>
