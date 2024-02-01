@@ -55,7 +55,7 @@ const UTOPIA = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>Amrita: 8784596172</li>
+                <li>Amrita: 8754596172</li>
               </ul>
             </div>
           </div>
