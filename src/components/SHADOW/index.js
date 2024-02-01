@@ -36,12 +36,12 @@ const SHADOW = () => {
                     electronic gadgets can be prohibited
                   </li>
                   <li className="list-item">
-                    ● Round 1 consists of 12 question (10 cases as MCQ and 2
+                    ● Round 1 consists of 12 question (10 cases as questions and 2
                     cases as comprehension)
                   </li>
                   <li className="list-item">● For round 2 we will provide a scenario</li>
                   <li className="list-item">
-                    ● Let’s make this event a win-win,together.play it
+                    ● Let’s make this event a win-win,together,play it
                     fair,follow the rules, and celebrate everyone’s
                     achievements!
                   </li>
