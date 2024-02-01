@@ -57,7 +57,7 @@ const BOX = () => {
             </div>
           </div>
           <button className="button">
-            <a href="" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScE79igEfEmwlCVL-BeYkvoDu1UBMCGjlaHhCMWEDDbPb-BMQ/viewform?usp=sf_link" target="_blank">
               REGISTER
             </a>
           </button>

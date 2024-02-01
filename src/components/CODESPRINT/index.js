@@ -63,7 +63,7 @@ const CODESPRINT = () => {
               </ul>
             </div>
           </div>
-          <button className="button"><a href="" target="_blank">REGISTER</a></button>
+          <button className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform" target="_blank">REGISTER</a></button>
         </div>
       </div>
     </Wrapper>

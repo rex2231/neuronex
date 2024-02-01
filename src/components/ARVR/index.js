@@ -44,7 +44,9 @@ const ARVR = () => {
                     ● Provide constructive feedback when requested to help
                     improve future symposiums.
                   </li>
-                  <li className="list-item">● Bring your laptops with network connection.</li>
+                  <li className="list-item">
+                    ● Bring your laptops with network connection.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -58,11 +60,18 @@ const ARVR = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>Sathish: 1234567890</li>
+                <li>Sathish: 9342543211</li>
               </ul>
             </div>
           </div>
-          <button className="button"><a href="" target="_blank">REGISTER</a></button>
+          <button className="button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd-jhPrAdL04xyLuAV0OkBwy0fTtSHjtvkeJ9drC2VCrxMW-Q/viewform?usp=sf_link"
+              target="_blank"
+            >
+              REGISTER
+            </a>
+          </button>
         </div>
       </div>
     </Wrapper>

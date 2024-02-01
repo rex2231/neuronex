@@ -53,7 +53,7 @@ const UIUX = () => {
       </ul>
   </div>
   </div>
-  <button className="button"><a href="" target="_blank">REGISTER</a></button>
+  <button className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-jhPrAdL04xyLuAV0OkBwy0fTtSHjtvkeJ9drC2VCrxMW-Q/viewform?usp=sf_link" target="_blank">REGISTER</a></button>
 </div>
 </div>
 

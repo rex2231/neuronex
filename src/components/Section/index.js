@@ -59,7 +59,7 @@ function Section({
             </div>
           )}
           {rightbtn && (
-            <a href={regLink}>
+            <a href={regLink} target="_blank">
               <div className="left">
                 <button>REGISTER NOW</button>
               </div>
