@@ -62,7 +62,7 @@ const VIBRATO = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>ELANGO: 9840624826</li>
+                <li>Elango: 9840624826</li>
               </ul>
             </div>
           </div>

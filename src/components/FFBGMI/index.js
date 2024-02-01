@@ -62,7 +62,7 @@ const FFBGMI = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>SASI: 9949403755</li>
+                <li>Sasi: 9949403755</li>
               </ul>
             </div>
           </div>

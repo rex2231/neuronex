@@ -60,7 +60,7 @@ const MARVEL = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>TEJASREE: 8978794332</li>
+                <li>Tejasree: 8978794332</li>
               </ul>
             </div>
           </div>

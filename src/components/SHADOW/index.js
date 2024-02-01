@@ -58,7 +58,7 @@ const SHADOW = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>BALA: 9597718899</li>
+                <li>Bala: 9597718899</li>
               </ul>
             </div>
           </div>
