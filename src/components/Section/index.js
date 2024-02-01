@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Wrapper, ContentTop, ContentMid, Content } from "./section.style";
+import { Wrapper, ContentTop, ContentMid } from "./section.style";
+import CLOCK from "../CLOCK";
 
 function Section({
   title,
@@ -12,25 +13,28 @@ function Section({
   leftbtn,
   rightbtn,
   arrow,
-  range,
-  speed,
-  hp,
-  top,
 }) {
   return (
     <Wrapper>
       <ContentTop>
-        <h2>{title}</h2>
-        <p>{slogan}</p>
+        {arrow ? (
+          <>
+            <h1>{title}</h1>
+            <a style={{color:"blue"}} href="https://maps.app.goo.gl/Rj4f8mWVn29UB9g49" target="_blank">{slogan}</a>
+          </>
+        ) : (
+          <>
+            <h2>{title}</h2>
+            <p>{slogan}</p>
+          </>
+        )}
       </ContentTop>
       <div className="arrow-space">
         {!arrow && (
           <ContentMid className="image-element">
             <div className="flex-container">
               <div className="description-element">
-                <p className="text-element">
-                  {desc}
-                </p>
+                <p className="text-element">{desc}</p>
               </div>
               <div className="image-container">
                 <img
@@ -39,6 +43,11 @@ function Section({
                 />
               </div>
             </div>
+          </ContentMid>
+        )}
+        {arrow && (
+          <ContentMid>
+            <CLOCK />
           </ContentMid>
         )}
         <ContentMid className={arrow ? "" : "buttons"}>
@@ -50,45 +59,13 @@ function Section({
             </div>
           )}
           {rightbtn && (
-            <a href={regLink}>
+            <a href={regLink} target="_blank">
               <div className="left">
                 <button>REGISTER NOW</button>
               </div>
             </a>
           )}
         </ContentMid>
-        {range && (
-          <Content>
-            <div className="Info-bar">
-              <div className="Specs">
-                <h2>{range} mi</h2>
-                <p>Range (EPA est.)</p>
-              </div>
-              <div className="Specs">
-                <h2>{speed}s</h2>
-                <p>0-60 mph*</p>
-              </div>
-              <div className="Specs">
-                <h2>{top} mph</h2>
-                <p>Top Speed</p>
-              </div>
-              {hp && (
-                <div className="Specs hp">
-                  <h2>{hp} hp</h2>
-                  <p>Peak Power</p>
-                </div>
-              )}
-              <div className="order_btn">
-                <button> ORDER NOW </button>
-              </div>
-            </div>
-          </Content>
-        )}
-        {arrow && (
-          <div className="arrow">
-            <img src="/images/down-arrow.svg" alt="arrow" />
-          </div>
-        )}
       </div>
     </Wrapper>
   );

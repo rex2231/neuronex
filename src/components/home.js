@@ -12,7 +12,7 @@ function Home() {
         <Header/>
         <Wrapper>
             <Content>
-                <Section title="NEURONEX'24" slogan="Velammal Institute of Technology" desc="" link="ui-ux" arrow="true" backgroundImg/>
+                <Section title="NEURONEX'24" slogan="Velammal Institute of Technology" desc="" link="intro" arrow="true" />
             </Content>
             <Content>
                 <Section title="UI | UX" slogan='From pixels to perfection' desc="In the UI and UX design workshop, participants delve into crafting visually appealing interfaces (UI) and optimizing user experiences (UX). Through hands-on exercises, they learn design principles, usability techniques, and collaboration strategies. The workshop fosters practical skills, empowering attendees to create engaging digital solutions that prioritize both aesthetics and user satisfaction." link="/ui-ux" leftbtn="CUSTOM ORDER" regLink="https://docs.google.com/forms/d/e/1FAIpQLSd-jhPrAdL04xyLuAV0OkBwy0fTtSHjtvkeJ9drC2VCrxMW-Q/viewform?usp=sf_link" rightbtn="EXISTING INVENTORY" backgroundImg="ui.png"/>
