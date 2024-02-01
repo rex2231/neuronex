@@ -11,7 +11,7 @@ const UIUX = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-  <h1 className="heading">UI UX</h1>
+  <h1 className="heading">UI | UX</h1>
 <div className="r-d-container">
   <div className="page-container">
     <div className="description-container">
