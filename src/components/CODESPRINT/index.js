@@ -5,13 +5,13 @@ import { Wrapper } from "./modely.style";
 import Header from "../Header";
 
 const CODESPRINT = () => {
-  document.title = "CODE SPRINT SHUTDOWN";
+  document.title = "CODE SPRINT SHOWDOWN";
   return (
     <Wrapper>
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">CODE SPRINT SHUTDOWN</h1>
+          <h1 className="heading">CODE SPRINT SHOWDOWN</h1>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
