@@ -49,6 +49,7 @@ export const ContentTop = styled.div`
         letter-spacing: 0.5px;
         font-size: 2.5rem;
         color: ;
+        font-weight:bold
     }
 
     p {
