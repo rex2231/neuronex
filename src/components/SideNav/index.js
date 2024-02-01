@@ -14,7 +14,7 @@ function SideNav({ show }) {
                 <div style={{color:"black"}}>Technical Event</div>
                 <Link to='/bug-bash-challenge'><li>Bug Bash Challenge</li></Link>
                 <Link to='/utopia-ui'><li>Utopia UI</li></Link>
-                <Link to='/code-sprint-shutdown'><li>Code Sprint Shutdown</li></Link>
+                <Link to='/code-sprint-shutdown'><li>Code Sprint Showdown</li></Link>
                 <Link to='/paper-pinnacle'><li>Paper Pinnacle</li></Link>
                 <Link to='/tech-unleashed-expo'><li>Tech Unleashed Expo</li></Link>
                 <Link to='/marvel-mastery'><li>Marvel Mastery</li></Link>

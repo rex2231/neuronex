@@ -17,7 +17,7 @@ const CODESPRINT = () => {
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
                 <p className="description-element">
-                  Build,Break ,innovate join the 'codesprint showdown'
+                  Build,Break,innovate join the 'codesprint showdown'
                   revolution,Gear up,hacker!,The coding marathon is on ,level up
                   your skills,design for good win big,launch your ideas.
                 </p>
@@ -59,7 +59,7 @@ const CODESPRINT = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>Mahavarshini: 9600361142</li>
+                <li>Prem: 9566371391</li>
               </ul>
             </div>
           </div>

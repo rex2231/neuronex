@@ -17,30 +17,39 @@ const BUG = () => {
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
                 <p className="description-element">
-                  It consists of three levels starting from Quiz where certain
-                  Questions will be asked followed by debugging includes fixing
-                  errors and finally DSA,which involves organising,manipulating
-                  data efficient and designing algorithms to solve problems.In
-                  Quiz four option will be provided and you must identify the
-                  correct option out of it.In DSA round all kinds of problems
-                  will be asked.In debugging round certain set of codes will be
-                  given and you have to find out the errors.
+                  Dive into the heart of innovation at our Symposium's Debugging
+                  and Coding Round events! In the Debugging Round, participants
+                  will navigate through intricate code, identifying and fixing
+                  bugs under time constraints, demonstrating their precision and
+                  troubleshooting acumen. Meanwhile, the Coding Round beckons
+                  creative minds to tackle complex challenges, designing elegant
+                  solutions that stand out in efficiency and ingenuity. Whether
+                  you're a seasoned coder or a rising enthusiast, these events
+                  offer a platform to showcase your skills, learn from peers,
+                  and celebrate the art of programming. Unleash your coding
+                  prowess and join us for an exhilarating journey through the
+                  realm of technology!
                 </p>
               </div>
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● Participants must take part individually.</li>
-                  <li className="list-item">● Questions will be based on Python,Java and C++ </li>
                   <li className="list-item">
-                    ● Three rounds will be conducted which includes
-                    Quiz,Debugging and DSA
+                    ● Participant must take part individually.
                   </li>
                   <li className="list-item">
-                    ● Quiz consists of 10 Questions,code debugging has 10
-                    Questions and DSA has 3 Questions of total 100 points.
+                    ● Questions will be based on Python,Java and C++
                   </li>
-                  <li className="list-item">● In case of doubts volunteers will guide you.</li>
+                  <li className="list-item">
+                    ● Two rounds will be conducted which includes
+                    Debugging and DSA.
+                  </li>
+                  <li className="list-item">
+                    ● Debugging round consist of 5 questions for each question 5 points will be awarded.
+                  </li>
+                  <li className="list-item">
+                    ● DSA round consist of 5 questions for each question 10 points will be awarded.(2 easy question,2 medium question,1 hard question)
+                  </li>
                   <li className="list-item">
                     ● The winners will be selected based on the points secured.
                   </li>
@@ -65,7 +74,14 @@ const BUG = () => {
               </ul>
             </div>
           </div>
-          <button className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform" target="_blank">REGISTER</a></button>
+          <button className="button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+              target="_blank"
+            >
+              REGISTER
+            </a>
+          </button>
         </div>
       </div>
     </Wrapper>
