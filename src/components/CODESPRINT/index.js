@@ -59,7 +59,7 @@ const CODESPRINT = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>MAHAVARSHINI: 9600361142</li>
+                <li>Mahavarshini: 9600361142</li>
               </ul>
             </div>
           </div>

@@ -67,7 +67,7 @@ const MEME = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>KAVI: 9003961061</li>
+                <li>Kavi: 9003961061</li>
               </ul>
             </div>
           </div>

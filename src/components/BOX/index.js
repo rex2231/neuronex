@@ -52,7 +52,7 @@ const BOX = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>sandeep: 8754799727</li>
+                <li>Sandeep: 8754799727</li>
               </ul>
             </div>
           </div>

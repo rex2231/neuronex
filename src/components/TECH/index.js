@@ -53,7 +53,7 @@ const TECH = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>mahiz: 9550171301</li>
+                <li>Mahiz: 9550171301</li>
               </ul>
             </div>
           </div>
