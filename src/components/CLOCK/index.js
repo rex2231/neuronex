@@ -9,7 +9,6 @@ const CLOCK = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date().getTime();
