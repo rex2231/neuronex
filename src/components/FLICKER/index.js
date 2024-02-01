@@ -57,7 +57,7 @@ const FLICKER = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>: 9790251503</li>
+                <li>MANISH: 9790251503</li>
               </ul>
             </div>
           </div>

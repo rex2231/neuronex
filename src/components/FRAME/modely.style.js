@@ -21,6 +21,10 @@ export const Wrapper = styled.div`
     padding-bottom: 60px;
   }
 
+  a{
+    text-decoration:none
+  }
+
   // pc
   @media screen and (min-width: 768px) {
     .page-container {
@@ -40,6 +44,7 @@ export const Wrapper = styled.div`
     .rules-container {
       max-width: 40vw;
       min-width: 30vw;
+      border-radius:14px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -227,6 +232,7 @@ export const Wrapper = styled.div`
     .rules-container {
       max-width: 90vw;
       display: flex;
+      border-radius:10px;
       flex-direction: column;
       justify-content: center;
       align-items: center;

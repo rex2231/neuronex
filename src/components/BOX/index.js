@@ -30,7 +30,7 @@ const BOX = () => {
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
                   <li className="list-item">● A team consists of 5 players.</li>
-                  <li className="list-item">● 4 overs per team(only 1 bowler 2 over)</li>
+                  <li className="list-item">● 4 overs per team(only 1 bowler can bowl 2 over)</li>
                   <li className="list-item">● Knock-out based.</li>
                   <li className="list-item">● Umpires decision is final.</li>
                   <li className="list-item">● Registration fee ₹200 per team.</li>
@@ -52,7 +52,7 @@ const BOX = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>sandeep: 1234567890</li>
+                <li>sandeep: 8754799727</li>
               </ul>
             </div>
           </div>
