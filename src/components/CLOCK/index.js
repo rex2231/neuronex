@@ -60,9 +60,15 @@ const CLOCK = () => {
             <span>Seconds</span>
           </div>
         </div>
-        <a class="bn49" href="/">REGISTER</a>
+        <a
+          class="bn49"
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+        >
+          REGISTER
+        </a>
       </div>
-      <div className="image">  
+      <div className="image">
         <img src="/images/down-arrow.svg" alt="arrow" />
       </div>
     </div>
