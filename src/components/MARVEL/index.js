@@ -5,13 +5,13 @@ import { Wrapper } from "./modely.style";
 import Header from "../Header";
 
 const MARVEL = () => {
-  document.title = "MARVEL MYSTERY";
+  document.title = "MARVEL MASTERY";
   return (
     <Wrapper>
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">MARVEL MYSTERY</h1>
+          <h1 className="heading">MARVEL MASTERY</h1>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
