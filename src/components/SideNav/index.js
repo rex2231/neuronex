@@ -24,7 +24,7 @@ function SideNav({ show }) {
                 <Link to='/flicker-fusion'><li>Flicker Fusion</li></Link>
                 <Link to='/vibrato-vision'><li>Vibrato Vision</li></Link>
                 <Link to='/box-bash-league'><li>Box Bash League</li></Link>
-                <Link to='/shadow-conspiracy'><li>Shadown Conspiracy</li></Link>
+                <Link to='/shadow-conspiracy'><li>Shadow Conspiracy</li></Link>
                 <Link to='/meme-mind-summit'><li>Meme Mind Summit</li></Link>
                 <Link to='/frame-by-frame'><li>Frame By Frame</li></Link>
             </Content>

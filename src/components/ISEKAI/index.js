@@ -47,7 +47,7 @@ const ISEKAI = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>Sabari: 6374043623</li>
+                <li>Yathesh: 9566517450</li>
               </ul>
             </div>
           </div>

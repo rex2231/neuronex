@@ -32,10 +32,6 @@ const PAPER = () => {
                     ● Hard copy must be prepared before arriving the venue.
                   </li>
                   <li className="list-item">
-                    ● Presentation must be prepared before arriving to the
-                    venue.
-                  </li>
-                  <li className="list-item">
                     ● Time for presentation 5-10 min.
                   </li>
                   <li className="list-item">

@@ -21,7 +21,7 @@ const SHADOW = () => {
                   cunning riddles and clues guard a shadow of suspicious cases.
                   Outwit the shadow as you navigate escalating difficulty and
                   elimination. Can you unravel the mysteries and claim the
-                  prize. The shadow conspiracy awaits…
+                  prize?. The shadow conspiracy awaits…
                 </p>
               </div>
               <div className="rules-container">
@@ -33,7 +33,7 @@ const SHADOW = () => {
                   </li>
                   <li className="list-item">
                     ● If link is necessary it will be provided otherwise
-                    electronic gadgets can be prohibited
+                    electronic gadgets can be prohibited.
                   </li>
                   <li className="list-item">
                     ● Round 1 consists of 12 question (10 cases as questions and 2

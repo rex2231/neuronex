@@ -36,10 +36,6 @@ const MEME = () => {
                     with themes for meme creation.
                   </li>
                   <li className="list-item">
-                    ● At level 0, each team’s meme posted on insta and best
-                    teams will be selected based on the no. of likes.
-                  </li>
-                  <li className="list-item">
                     ● The selected teams will go to next level, level 1, in
                     which teams are said to create memes with the given
                     templates.
