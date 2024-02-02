@@ -3,6 +3,7 @@ import { Wrapper,Content } from './home.style'
 
 import Section from './Section'
 import Header from './Header';
+import FOOTER from './Footer';
 
 function Home() {
 
@@ -61,6 +62,9 @@ function Home() {
             </Content>
             <Content>
                 <Section title="FRAME BY FRAME" slogan="In the Web of Victory, Every connection counts!" link="/frame-by-frame" desc="Frame by frame sounds like a fun and challenging game where proverbs meet picture puzzles!  You'd have to decipher the proverb's meaning, analyze the image, and then merge them perfectly to reveal the whole picture and unlock the next proverb-picture combo. It's a brain-teasing blend of wisdom and visual wit, promising hours of puzzling fun for proverb lovers and puzzle enthusiasts alike." regLink="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform" leftbtn="ORDER NOW" rightbtn="LEARN MORE" backgroundImg="frame.png"/>
+            </Content>
+            <Content>
+             <FOOTER/>
             </Content>
         </Wrapper>
         </>
