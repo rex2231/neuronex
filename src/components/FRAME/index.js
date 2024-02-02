@@ -36,12 +36,12 @@ const FRAME = () => {
                     regulations.
                   </li>
                   <li className="list-item">
-                    ● Round 1:Similar pictures will be depicted and participants
+                    ● Round 1:Similar pictures will be display and participants
                     should find the common word in the pictures.
                   </li>
-                  <li className="list-item">● Round 2 :proverbs will be depicted in pictures .</li>
+                  <li className="list-item">● Round 2 :proverbs will be display in pictures .</li>
                   <li className="list-item"Y>
-                    ● Round 3 :Song middle stanza will be depicted in pictures
+                    ● Round 3 :Song middle stanza will be display in pictures
                     and participants should find the 1st line of the song.
                   </li>
                 </ul>

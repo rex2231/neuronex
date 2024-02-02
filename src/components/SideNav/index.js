@@ -14,7 +14,7 @@ function SideNav({ show }) {
                 <div style={{color:"black"}}>Technical Event</div>
                 <Link to='/bug-bash-challenge'><li>Bug Bash Challenge</li></Link>
                 <Link to='/utopia-ui'><li>Utopia UI</li></Link>
-                <Link to='/code-sprint-shutdown'><li>Code Sprint Shutdown</li></Link>
+                <Link to='/code-sprint-shutdown'><li>Code Sprint Showdown</li></Link>
                 <Link to='/paper-pinnacle'><li>Paper Pinnacle</li></Link>
                 <Link to='/tech-unleashed-expo'><li>Tech Unleashed Expo</li></Link>
                 <Link to='/marvel-mastery'><li>Marvel Mastery</li></Link>
@@ -24,7 +24,7 @@ function SideNav({ show }) {
                 <Link to='/flicker-fusion'><li>Flicker Fusion</li></Link>
                 <Link to='/vibrato-vision'><li>Vibrato Vision</li></Link>
                 <Link to='/box-bash-league'><li>Box Bash League</li></Link>
-                <Link to='/shadow-conspiracy'><li>Shadown Conspiracy</li></Link>
+                <Link to='/shadow-conspiracy'><li>Shadow Conspiracy</li></Link>
                 <Link to='/meme-mind-summit'><li>Meme Mind Summit</li></Link>
                 <Link to='/frame-by-frame'><li>Frame By Frame</li></Link>
             </Content>
