@@ -99,9 +99,12 @@ export const Content1 = styled.div`
     flex-wrap: nowrap;
     position: fixed;
     right: 30px;
+    background-color:black;
+    border-radius:10px;
 
     a{
         padding: 7px 16px;
+        color:white;
         font-size: 0.92rem;
         letter-spacing: 0.6px;
         text-decoration: none;
