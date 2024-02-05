@@ -27,10 +27,18 @@ const FLICKER = () => {
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● There is no particular theme for the short film.</li>
-                  <li className="list-item">● The shortfilm needs to be prepared beforehand.</li>
-                  <li className="list-item">● Each team must contain 3 – 6 members.</li>
-                  <li className="list-item">● Films once entered cannot be withdrawn.</li>
+                  <li className="list-item">
+                    ● There is no particular theme for the short film.
+                  </li>
+                  <li className="list-item">
+                    ● The shortfilm needs to be prepared beforehand.
+                  </li>
+                  <li className="list-item">
+                    ● Each team must contain 3 – 6 members.
+                  </li>
+                  <li className="list-item">
+                    ● Films once entered cannot be withdrawn.
+                  </li>
                   <li className="list-item">
                     ● The duration for the short film must be from 5min – 10
                     min.
@@ -39,7 +47,9 @@ const FLICKER = () => {
                     ● It must be original and any kind of watermark shouldn’t be
                     on the film.
                   </li>
-                  <li className="list-item">● The film must be of highest quality possible.</li>
+                  <li className="list-item">
+                    ● The film must be of highest quality possible.
+                  </li>
                   <li className="list-item">
                     ● Any kind of Adult content will not be entertained and
                     would lead to direct disqualification.
@@ -62,10 +72,7 @@ const FLICKER = () => {
             </div>
           </div>
           <button className="button">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
-              target="_blank"
-            >
+            <a href="https://forms.gle/VH7G3Nyh6wCyYH6q8" target="_blank">
               REGISTER
             </a>
           </button>
