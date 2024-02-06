@@ -40,6 +40,17 @@ const PAPER = () => {
                   </li>
                 </ul>
               </div>
+              <div className="topic-container">
+                <h1 className="sub-heading">Topics</h1>
+                <ul className="rules-list">
+                  <li className="list-item">● Agriculture</li>
+                  <li className="list-item">● Health Care</li>
+                  <li className="list-item">● Traffic System</li>
+                  <li className="list-item">● Robotics and AI</li>
+                  <li className="list-item">● AR & VR</li>
+                  <li className="list-item">● BlockChain</li>
+                </ul>
+              </div>
             </div>
           </div>
 

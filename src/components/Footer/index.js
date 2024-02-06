@@ -46,7 +46,7 @@ function FOOTER({
         </ContentMid>
         <ContentMid></ContentMid>
       </div>
-      <Bottom/>
+      <Bottom />
     </Wrapper>
   );
 }
