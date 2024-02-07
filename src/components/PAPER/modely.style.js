@@ -56,7 +56,21 @@ export const Wrapper = styled.div`
       padding: 35px;
       margin: 5px;
     }
-
+    .topic-container {
+      max-width: 30vw;
+      min-width: 20vw;
+      display: flex;
+      border-radius:10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 35px;
+    }
     .description-element {
       text-align: justify;
       color: #e9ebf3;
@@ -231,6 +245,20 @@ export const Wrapper = styled.div`
     .description-container,
     .rules-container {
       max-width: 90vw;
+      display: flex;
+      border-radius:10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 35px;
+    }
+    .topic-container {
+      width: 97%;
       display: flex;
       border-radius:10px;
       flex-direction: column;
