@@ -45,8 +45,10 @@ const PAPER = () => {
                 <ul className="rules-list">
                   <li className="list-item">● Agriculture</li>
                   <li className="list-item">● Health Care</li>
-                  <li className="list-item">● Traffic System</li>
-                  <li className="list-item">● Robotics and AI</li>
+                  <li className="list-item">● Education</li>
+                  <li className="list-item">● Robotics</li>
+                  <li className="list-item">● AI</li>
+                  <li className="list-item">● ML & DL</li>
                   <li className="list-item">● AR & VR</li>
                   <li className="list-item">● BlockChain</li>
                 </ul>
