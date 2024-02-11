@@ -30,26 +30,25 @@ const MEME = () => {
                     ● Each team should register with the proper e-mail id and
                     contact number.
                   </li>
-                  <li className="list-item">● Team should not exceed 3 members.</li>
                   <li className="list-item">
-                    ● There will be three levels, each level will be provided
-                    with themes for meme creation.
+                    ● Team should not exceed 3 members.
                   </li>
+                  <li className="list-item">● There will be three levels.</li>
                   <li className="list-item">
-                    ● The selected teams will go to next level, level 1, in
-                    which teams are said to create memes with the given
-                    templates.
+                    ● In level 1, each teams are said to create memes with the
+                    given templates.
                   </li>
                   <li className="list-item">
                     ● The selected teams from level 1 will go to level 2, in
-                    which the teams will create a video meme based on the
-                    concept.
+                    which the teams will create memes based on the theme.
                   </li>
                   <li className="list-item">
-                    ● The winning teams will be awarded with cash price /
-                    voucher.
+                    ● At level 3, teams will create a video meme with the given
+                    theme.
                   </li>
-                  <li className="list-item"> Avoid sensitive or offensive contents.</li>
+                  <li className="list-item">
+                    ● Avoid sensitive or offensive contents.
+                  </li>
                 </ul>
               </div>
             </div>
