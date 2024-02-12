@@ -17,34 +17,27 @@ const CODESPRINT = () => {
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
                 <p className="description-element">
-                  Build,Break,innovate join the 'codesprint showdown'
-                  revolution,Gear up,hacker!,The coding marathon is on ,level up
-                  your skills,design for good win big,launch your ideas.
+                  Level up your coding skills and test your speed and wit in
+                  this epic challenge! Answer questions, gain time advantages
+                  and solve a real-world coding mystery. Think you’re the
+                  ultimate code detective? Prove it!
                 </p>
               </div>
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● A team must contains 2 to 4 members.</li>
-                  <li className="list-item"> 
-                    ● Teams can use Libraries,frameWork and opensource code.
+                  <li className="list-item">● Solo event.</li>
+                  <li className="list-item">
+                    ● Participants must be familiar with either Python, Java or
+                    C++.
+                  </li>
+                  <li className="list-item">● Consists of two rounds.</li>
+                  <li className="list-item">
+                    ● Participants are not allowed to deviate the tab from the
+                    given applications.
                   </li>
                   <li className="list-item">
-                    ● Involvement of Staffs,Volunteers or higher Position
-                    Members prohibited
-                  </li>
-                  <li className="list-item">
-                    ● But a team can gain advices and support from
-                    organizers,volunteers sponsers and others
-                  </li>
-                  <li className="list-item">
-                    ● There are two rounds in hackathon ,Each round has 45 mins
-                    to do their coding
-                  </li>
-                  <li className="list-item">● Team must stop hacking once the time is up.</li>
-                  <li className="list-item">
-                    ● Teams are allowed to debug and make small fixes to their
-                    program after time is up.
+                    ● Helping the other events during the event is not allowed.
                   </li>
                 </ul>
               </div>
@@ -63,7 +56,14 @@ const CODESPRINT = () => {
               </ul>
             </div>
           </div>
-          <button className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform" target="_blank">REGISTER</a></button>
+          <button className="button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+              target="_blank"
+            >
+              REGISTER
+            </a>
+          </button>
         </div>
       </div>
     </Wrapper>
