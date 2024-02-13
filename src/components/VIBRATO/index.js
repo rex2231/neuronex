@@ -32,22 +32,24 @@ const VIBRATO = () => {
                   <li className="list-item">
                     ● Buzzer to buzzer rounds serve as its sole foundation.
                   </li>
-                  <li className="list-item">● There must be two people on the team.</li>
+                  <li className="list-item">
+                    ● There must be two people on the team.
+                  </li>
                   <li className="list-item">
                     ● It is requested of participants to abide by the
                     guidelines.
                   </li>
                   <li className="list-item">
                     ● Round 1: The song’s background music will be played, and
-                    players must locate the song.{" "}
+                    players must locate the song.
                   </li>
                   <li className="list-item">
-                    ● Round 2: Participants must locate the song by following a
-                    certain line or stanza that has been scrambled and shown.{" "}
-                  </li>
-                  <li className="list-item">
-                    ● Round 3: A certain song line will be eliminated and
+                    ● Round 2: A certain song line will be eliminated and
                     participants have to find the line of the song.
+                  </li>
+                  <li className="list-item">
+                    ● Round 3: The players will need to locate the song once it
+                    has been reversed.
                   </li>
                 </ul>
               </div>
