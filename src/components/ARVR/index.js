@@ -11,7 +11,10 @@ const ARVR = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">AR | VR</h1>
+          <div>
+            <h1 className="heading">AR | VR</h1>
+            <div className="timing">(10.00am to 12.30pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">

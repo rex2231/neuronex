@@ -11,7 +11,10 @@ const TECH = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">TECH UNLEASHED EXPO</h1>
+          <div>
+            <h1 className="heading">TECH UNLEASHED EXPO</h1>
+            <div className="timing">(10.00am to 11.30am)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -28,8 +31,8 @@ const TECH = () => {
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
                   <li className="list-item">
-                    ● This is a team event (minimum 2 member - maximum 4
-                    members in a team).
+                    ● This is a team event (minimum 2 member - maximum 4 members
+                    in a team).
                   </li>
                   <li className="list-item">
                     ● Each team will be granted maximum of 10 minutes to present
@@ -37,8 +40,8 @@ const TECH = () => {
                   </li>
                   <li className="list-item">
                     ● Teams are supposed to have proper documentation, their own
-                    gadgets(laptops and pendrives) and presentation proper prototype for the
-                    presentation.
+                    gadgets(laptops and pendrives) and presentation proper
+                    prototype for the presentation.
                   </li>
                 </ul>
               </div>

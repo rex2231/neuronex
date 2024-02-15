@@ -11,7 +11,10 @@ const ISEKAI = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">ISEKAI BAKA'S</h1>
+          <div>
+            <h1 className="heading">ISEKAI BAKA'S</h1>
+            <div className="timing">(10.00am to 11.00 am)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -27,13 +30,27 @@ const ISEKAI = () => {
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● Round 1 have 2 slots, 20 mins per slot. </li>{" "}
-                  <li className="list-item">● Teams must consists of two members.</li>{" "}
-                  <li className="list-item">● Expected time limit is maximum 20 mins.</li>{" "}
-                  <li className="list-item">● Questions will be provided on spot.</li>{" "}
-                  <li className="list-item">● Round 1 consists 15 questions.</li>{" "}
-                  <li className="list-item">● In round 2, dialogues and images will be provided.</li>{" "}
-                  <li className="list-item">● Teams must respect the rules and regulations.</li>
+                  <li className="list-item">
+                    ● Round 1 have 2 slots, 20 mins per slot.{" "}
+                  </li>{" "}
+                  <li className="list-item">
+                    ● Teams must consists of two members.
+                  </li>{" "}
+                  <li className="list-item">
+                    ● Expected time limit is maximum 20 mins.
+                  </li>{" "}
+                  <li className="list-item">
+                    ● Questions will be provided on spot.
+                  </li>{" "}
+                  <li className="list-item">
+                    ● Round 1 consists 15 questions.
+                  </li>{" "}
+                  <li className="list-item">
+                    ● In round 2, dialogues and images will be provided.
+                  </li>{" "}
+                  <li className="list-item">
+                    ● Teams must respect the rules and regulations.
+                  </li>
                 </ul>
               </div>
             </div>

@@ -11,7 +11,10 @@ const SHADOW = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">SHADOW CONSPIRACY</h1>
+          <div>
+            <h1 className="heading">SHADOW CONSPIRACY</h1>
+            <div className="timing">(11.30am to 1.00pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -27,7 +30,9 @@ const SHADOW = () => {
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● Team must consist of 2-3 comrades</li>
+                  <li className="list-item">
+                    ● Team must consist of 2-3 comrades
+                  </li>
                   <li className="list-item">
                     ● Round 1 has 2 slots and provide 20 minutes per slot
                   </li>
@@ -36,10 +41,12 @@ const SHADOW = () => {
                     electronic gadgets can be prohibited.
                   </li>
                   <li className="list-item">
-                    ● Round 1 consists of 12 question (10 cases as questions and 2
-                    cases as comprehension)
+                    ● Round 1 consists of 12 question (10 cases as questions and
+                    2 cases as comprehension)
                   </li>
-                  <li className="list-item">● For round 2 we will provide a scenario</li>
+                  <li className="list-item">
+                    ● For round 2 we will provide a scenario
+                  </li>
                   <li className="list-item">
                     ● Let’s make this event a win-win,together,play it
                     fair,follow the rules, and celebrate everyone’s
