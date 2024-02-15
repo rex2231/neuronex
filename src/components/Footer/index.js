@@ -34,13 +34,15 @@ function FOOTER({
               </p>
             </div>
             <div className="image-container">
-              <video
+              <iframe
                 width="460"
-                height="auto"
-                src="TEASER.mp4"
-                controls
-                autoplay="false"
-              ></video>
+                height="250"
+                src="https://www.youtube.com/embed/z9NqDmFUkVw?si=OUzPKWX6WRboUypY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </ContentMid>
