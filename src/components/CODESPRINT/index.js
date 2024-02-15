@@ -11,33 +11,49 @@ const CODESPRINT = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">CODE SPRINT SHOWDOWN</h1>
+          <div>
+            <h1 className="heading">CODE SPRINT SHOWDOWN</h1>
+            <div className="timing">(11.30am to 1.00pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
                 <p className="description-element">
-                  Level up your coding skills and test your speed and wit in
-                  this epic challenge! Answer questions, gain time advantages
-                  and solve a real-world coding mystery. Think you’re the
-                  ultimate code detective? Prove it!
+                  "Hack the future, one line at a time! Our hackathon is a
+                  celebration of innovation, collaboration, and sheer coding
+                  brilliance. Join us for an electrifying experience where your
+                  code has the power to shape the future. Are you up for the
+                  challenge?"
                 </p>
+              </div>
+              <div className="rules-container">
+                <h1 className="sub-heading">Evalutaion</h1>
+                <ul className="rules-list">
+                  <li className="list-item">
+                    ● Code Clarity: The code should be well-structured,
+                    optimized and easy to understand.
+                  </li>
+                  <li className="list-item">
+                    ● Impact: The solution should assess the real-world impacts
+                    i.e., whether the solution addresses a genuine problem and
+                    has practical applications.
+                  </li>
+                  <li className="list-item">
+                    ● The decision of the judge will be final.
+                  </li>
+                </ul>
               </div>
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● Solo event.</li>
                   <li className="list-item">
-                    ● Participants must be familiar with either Python, Java or
-                    C++.
+                    ● A team can have up to 4 members.
                   </li>
-                  <li className="list-item">● Consists of two rounds.</li>
+                  <li className="list-item">● Consists of only one round.</li>
                   <li className="list-item">
-                    ● Participants are not allowed to deviate the tab from the
-                    given applications.
-                  </li>
-                  <li className="list-item">
-                    ● Helping the other events during the event is not allowed.
+                    ● Helping the other participants during the event is not
+                    allowed.
                   </li>
                 </ul>
               </div>

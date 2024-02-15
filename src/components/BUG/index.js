@@ -11,7 +11,10 @@ const BUG = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">BUG BASH CHALLENGE</h1>
+          <div>
+            <h1 className="heading">BUG BASH CHALLENGE</h1>
+            <div className="timing">(10.00am to 12.00pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -41,14 +44,17 @@ const BUG = () => {
                     ● Questions will be based on Python,Java and C++
                   </li>
                   <li className="list-item">
-                    ● Two rounds will be conducted which includes
-                    Debugging and DSA.
+                    ● Two rounds will be conducted which includes Debugging and
+                    DSA.
                   </li>
                   <li className="list-item">
-                    ● Debugging round consist of 5 questions for each question 5 points will be awarded.
+                    ● Debugging round consist of 5 questions for each question 5
+                    points will be awarded.
                   </li>
                   <li className="list-item">
-                    ● DSA round consist of 5 questions for each question 10 points will be awarded.(2 easy question,2 medium question,1 hard question)
+                    ● DSA round consist of 5 questions for each question 10
+                    points will be awarded.(2 easy question,2 medium question,1
+                    hard question)
                   </li>
                   <li className="list-item">
                     ● The winners will be selected based on the points secured.

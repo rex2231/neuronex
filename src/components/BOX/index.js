@@ -11,7 +11,10 @@ const BOX = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">BOX BASH LEAGUE</h1>
+          <div>
+            <h1 className="heading">BOX BASH LEAGUE</h1>
+            <div className="timing">(10.00am to 3.15pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -30,14 +33,26 @@ const BOX = () => {
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
                   <li className="list-item">● A team consists of 5 players.</li>
-                  <li className="list-item">● 4 overs per team(only 1 bowler can bowl 2 over)</li>
+                  <li className="list-item">
+                    ● 4 overs per team(only 1 bowler can bowl 2 over)
+                  </li>
                   <li className="list-item">● Knock-out based.</li>
                   <li className="list-item">● Umpires decision is final.</li>
-                  <li className="list-item">● Registration fee ₹200 per team.</li>
-                  <li className="list-item">● Winners are awarded with ₹1000.</li>
-                  <li className="list-item">● Runners are awarded with ₹500.</li>
-                  <li className="list-item">● Game rules announced before starting the match.</li>
-                  <li className="list-item">● Only 8 teams(First come first serve).</li>
+                  <li className="list-item">
+                    ● Registration fee ₹200 per team.
+                  </li>
+                  <li className="list-item">
+                    ● Winners are awarded with ₹1000.
+                  </li>
+                  <li className="list-item">
+                    ● Runners are awarded with ₹500.
+                  </li>
+                  <li className="list-item">
+                    ● Game rules announced before starting the match.
+                  </li>
+                  <li className="list-item">
+                    ● Only 8 teams(First come first serve).
+                  </li>
                   <li className="list-item">● Match starts at 10:30 A.M.</li>
                 </ul>
               </div>
@@ -57,7 +72,10 @@ const BOX = () => {
             </div>
           </div>
           <button className="button">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScE79igEfEmwlCVL-BeYkvoDu1UBMCGjlaHhCMWEDDbPb-BMQ/viewform?usp=sf_link" target="_blank">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScE79igEfEmwlCVL-BeYkvoDu1UBMCGjlaHhCMWEDDbPb-BMQ/viewform?usp=sf_link"
+              target="_blank"
+            >
               REGISTER
             </a>
           </button>

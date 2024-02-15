@@ -11,7 +11,10 @@ const FRAME = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">FRAME BY FRAME</h1>
+          <div>
+            <h1 className="heading">FRAME BY FRAME</h1>
+            <div className="timing">(11.30am to 2.30pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -29,8 +32,12 @@ const FRAME = () => {
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
-                  <li className="list-item">● It is fully based on buzzer to buzzer rounds.</li>
-                  <li className="list-item">● Team must consist of 2 members.</li>
+                  <li className="list-item">
+                    ● It is fully based on buzzer to buzzer rounds.
+                  </li>
+                  <li className="list-item">
+                    ● Team must consist of 2 members.
+                  </li>
                   <li className="list-item">
                     ● Participants are requested to follow the rules and
                     regulations.
@@ -39,8 +46,10 @@ const FRAME = () => {
                     ● Round 1:Similar pictures will be display and participants
                     should find the common word in the pictures.
                   </li>
-                  <li className="list-item">● Round 2 :proverbs will be display in pictures .</li>
-                  <li className="list-item"Y>
+                  <li className="list-item">
+                    ● Round 2 :proverbs will be display in pictures .
+                  </li>
+                  <li className="list-item" Y>
                     ● Round 3 :Song middle stanza will be display in pictures
                     and participants should find the 1st line of the song.
                   </li>

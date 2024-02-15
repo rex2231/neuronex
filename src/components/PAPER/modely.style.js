@@ -18,7 +18,12 @@ export const Wrapper = styled.div`
 
   .heading {
     font-size: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+  }
+  .timing {
+    padding-bottom:30px;
+    font-size: 20px;
+    font-weight:bold;
   }
 
   a{

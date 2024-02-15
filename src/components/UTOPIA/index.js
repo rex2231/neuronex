@@ -11,7 +11,10 @@ const UTOPIA = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">UTOPIA UI</h1>
+          <div>
+            <h1 className="heading">UTOPIA UI</h1>
+            <div className="timing">(10.00am to 11.00am)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -59,7 +62,14 @@ const UTOPIA = () => {
               </ul>
             </div>
           </div>
-          <button className="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform" target="_blank">REGISTER</a></button>
+          <button className="button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+              target="_blank"
+            >
+              REGISTER
+            </a>
+          </button>
         </div>
       </div>
     </Wrapper>

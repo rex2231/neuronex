@@ -11,7 +11,10 @@ const MARVEL = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">MARVEL MASTERY</h1>
+          <div>
+            <h1 className="heading">MARVEL MASTERY</h1>
+            <div className="timing">(11.30am to 1.00pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -43,7 +46,9 @@ const MARVEL = () => {
                     ● Participants must adhere to the rules and regulations of
                     the quiz.
                   </li>
-                  <li className="list-item">● For every correct answer points will be awarded.</li>
+                  <li className="list-item">
+                    ● For every correct answer points will be awarded.
+                  </li>
                   <li className="list-item">
                     ● Further details about the event provided during the event.
                   </li>

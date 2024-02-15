@@ -11,7 +11,10 @@ const FFBGMI = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">FF X BGMI</h1>
+          <div>
+            <h1 className="heading">FF X BGMI</h1>
+            <div className="timing">(10.00am to 3.15pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
@@ -33,11 +36,15 @@ const FFBGMI = () => {
                     ● It's a single-player game. Only one player is allowed to
                     play at a time.
                   </li>
-                  <li className="list-item">● Hand gestures are used to control the game.</li>
+                  <li className="list-item">
+                    ● Hand gestures are used to control the game.
+                  </li>
                   <li className="list-item">
                     ● Each player has one chance(life) with a trial gameplay.
                   </li>
-                  <li className="list-item">● Before the game begins, the demo will be shown.</li>
+                  <li className="list-item">
+                    ● Before the game begins, the demo will be shown.
+                  </li>
                   <li className="list-item">
                     ● Participants playing order is chosen by lottery system.
                   </li>

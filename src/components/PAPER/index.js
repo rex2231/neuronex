@@ -11,7 +11,10 @@ const PAPER = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">PAPER PINNACLE</h1>
+          <div>
+            <h1 className="heading">PAPER PINNACLE</h1>
+            <div className="timing">(10.00am to 11.30am)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">

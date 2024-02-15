@@ -11,7 +11,10 @@ const MEME = () => {
       <Header />
       <div className="bg-image">
         <div className="container">
-          <h1 className="heading">MEME MIND SUMMIT</h1>
+          <div>
+            <h1 className="heading">MEME MIND SUMMIT</h1>
+            <div className="timing">(11.30am to 1.00pm)</div>
+          </div>
           <div className="r-d-container">
             <div className="page-container">
               <div className="description-container">
