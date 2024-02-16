@@ -74,7 +74,7 @@ const CODESPRINT = () => {
           </div>
           <button className="button">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfLQPdT31ARCphlOtI9vTOy9sOjwrkKqF6ZLj39S8Kbrg7O8g/viewform?vc=0&c=0&w=1&flr=0"
               target="_blank"
             >
               REGISTER
