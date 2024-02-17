@@ -74,7 +74,7 @@ function Home() {
             slogan="Hack the impossible"
             desc="Build,Break ,innovate join the 'codesprint showdown' revolution,Gear up,hacker!,The coding marathon is on ,level up your skills,design for good win big,launch your ideas."
             link="/code-sprint-shutdown"
-            regLink="https://docs.google.com/forms/d/e/1FAIpQLScxgCmKPe6EtGGv6lIZODUsNPmnL3K52cUDLRGEHaxgLD9S0w/viewform"
+            regLink="https://docs.google.com/forms/d/e/1FAIpQLSfLQPdT31ARCphlOtI9vTOy9sOjwrkKqF6ZLj39S8Kbrg7O8g/viewform?vc=0&c=0&w=1&flr=0"
             leftbtn="ORDER NOW"
             rightbtn="LEARN MORE"
             backgroundImg="coding.png"
