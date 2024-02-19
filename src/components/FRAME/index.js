@@ -20,38 +20,41 @@ const FRAME = () => {
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
                 <p className="description-element">
-                  Frame by frame sounds like a fun and challenging game where
-                  proverbs meet picture puzzles! You'd have to decipher the
-                  proverb's meaning, analyze the image, and then merge them
-                  perfectly to reveal the whole picture and unlock the next
-                  proverb-picture combo. It's a brain-teasing blend of wisdom
-                  and visual wit, promising hours of puzzling fun for proverb
-                  lovers and puzzle enthusiasts alike.
+                  Frame by frame" seems like an entertaining and difficult game
+                  that combines picture puzzles with movie titles and proverbs!
+                  To uncover the entire picture and open the next
+                  proverb-picture combination, you would need to interpret the
+                  meaning of the proverb, evaluate the image, and then precisely
+                  combine the two. For fans of proverbs and puzzles alike, this
+                  brainteaser blend of wisdom and visual wit promises hours of
+                  entertaining puzzles.
                 </p>
               </div>
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
                   <li className="list-item">
-                    ● It is fully based on buzzer to buzzer rounds.
+                    1.Buzzer to buzzer rounds serve as its sole foundation.
                   </li>
                   <li className="list-item">
-                    ● Team must consist of 2 members.
+                    2.There must be two people on the team.
                   </li>
                   <li className="list-item">
-                    ● Participants are requested to follow the rules and
-                    regulations.
+                    3. It is requested of participants to abide by the guidelines
                   </li>
                   <li className="list-item">
-                    ● Round 1:Similar pictures will be display and participants
-                    should find the common word in the pictures.
+                    ● Round 1: Participants must identify the correct word
+                    between two similar images, movie titles, and proverbs that
+                    are displayed.
                   </li>
                   <li className="list-item">
-                    ● Round 2 :proverbs will be display in pictures .
+                    ● Round 2: Memory challenge: questions based on an image
+                    collage will be posted, along with the display of an image
+                    collage.
                   </li>
                   <li className="list-item" Y>
-                    ● Round 3 :Song middle stanza will be display in pictures
-                    and participants should find the 1st line of the song.
+                    ● Round 3: The middle stanza of the song will be presented
+                    to participants in the form of pictures, find the song.
                   </li>
                 </ul>
               </div>
@@ -66,7 +69,7 @@ const FRAME = () => {
               <span></span>
               <p className="contacts-header">Contacts:</p>
               <ul className="contacts-list">
-                <li>Arun: 9444157046</li>
+                <li>Abinesh:9080805855</li>
               </ul>
             </div>
           </div>
