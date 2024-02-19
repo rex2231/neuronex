@@ -41,6 +41,12 @@ const PAPER = () => {
                     ● Content must be creative and ideal should not be
                     plagiarism.
                   </li>
+                  <li className="list-item">
+                    ●Send your abstract to this mail id{" "}
+                  
+                      <a style={{color:'lightblue'}} href="
+                      mailto:paperpinnacle24@gmail.com"> paperpinnacle24@gmail.com</a>
+                  </li>
                 </ul>
               </div>
               <div className="topic-container">
