@@ -19,22 +19,30 @@ const FFBGMI = () => {
             <div className="page-container">
               <div className="description-container">
                 <h1 className="sub-heading">Description</h1>
-                <p className="description-element">
+                <li className="description-element">
                   Free Fire is the ultimate survival shooter game available on
                   mobile. Each 10-minute game places you on a remote island
                   where you are pit against 49 other players, all seeking
-                  survival.PlayerUnknown's Battlegrounds (PUBG) is a popular
-                  battle royale game that drops players onto an island where
-                  they compete to be the last person or team standing. Developed
-                  by PUBG Corporation.
-                </p>
+                  survival.
+                  <li className="description-element">
+                    Two teams consisting of four players each will play against
+                    each other. At the start of each round each team's players
+                    can only stay in their area and they can only buy weapons
+                    and items in the shop using their Balance which they gain at
+                    the start of the game and by doing other stuff each round.
+                  </li>
+                </li>
               </div>
               <div className="rules-container">
                 <h1 className="sub-heading">Rules</h1>
                 <ul className="rules-list">
                   <li className="list-item">
-                    ● It's a single-player game. Only one player is allowed to
-                    play at a time.
+                    ● A team must consist of a minimum of four members and
+                    maximum of six members.
+                    <li className="list-item">
+                      {" "}
+                      ● All matches are in Battle Royale Squad Mode.
+                    </li>
                   </li>
                   <li className="list-item">
                     ● Hand gestures are used to control the game.
