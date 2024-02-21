@@ -4,17 +4,7 @@ import { Wrapper, ContentTop, ContentMid } from "./section.style";
 import CLOCK from "../CLOCK";
 import Bottom from "./Bottom";
 
-function FOOTER({
-  title,
-  slogan,
-  desc,
-  regLink,
-  backgroundImg,
-  link,
-  leftbtn,
-  rightbtn,
-  arrow,
-}) {
+function FOOTER() {
   return (
     <Wrapper>
       <ContentTop>
@@ -35,7 +25,7 @@ function FOOTER({
             </div>
             <div className="image-container">
               <iframe
-                width="380"
+                width="370"
                 height="250"
                 src="https://www.youtube.com/embed/z9NqDmFUkVw?si=OUzPKWX6WRboUypY"
                 title="YouTube video player"
@@ -45,10 +35,27 @@ function FOOTER({
               ></iframe>
             </div>
           </div>
+          <div>
+            <h1 className="spon">Sponsors</h1>
+              <div className="spon">
+                <img className="image-sponsors" src="images/meridian.png" />
+              </div>
+            <div className="sponsors">
+              <div>
+                <img className="image-sponsors" src="images/green.png" />
+              </div>
+              <div>
+                <img className="image-sponsors" src="images/trends.png" />
+              </div>
+              <div>
+                <img className="image-sponsors" src="images/bharat.jpg" />
+              </div>
+            </div>
+          </div>
         </ContentMid>
-        <ContentMid></ContentMid>
       </div>
       <Bottom />
+        <ContentMid></ContentMid>
     </Wrapper>
   );
 }

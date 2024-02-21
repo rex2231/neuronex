@@ -1,48 +1,69 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e9ebf3;
+
+  img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+  .spon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sponsors {
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .image-sponsors {
+    width: 120px;
+    height: 60px;
+  }
+  .bg-img {
     width: 100vw;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color:  #e9ebf3;
+  }
 
+  .arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: black;
+    height: 72vh;
+  }
+
+  .buttons {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 360px) {
+    .sponsors {
+      display: flex;
+      gap: 8px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  @media screen and (max-width: 600px) {
     img {
-        margin-top: 15px;
-        margin-bottom: 10px;
-        height: 50px;
+      height: 40px;
+      width: fit;
     }
-
-    .bg-img {
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .arrow {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        color: black;
-        height: 72vh;
-    }
-
-    .buttons {
-        margin-bottom: 60px;
-    }
-
-    @media screen and (max-width: 600px) {
-        img {
-            height: 40px;
-            width: fit;
-        }
-    }
+  }
 `;
 
 export const ContentTop = styled.div`
     text-align: center;
-    padding-top: 16vh;
+    padding-top: 10vh;
     
     h1 {
         font-weight: 400;

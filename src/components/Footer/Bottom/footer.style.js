@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
   .bottom {
     a {
       transition: color 200ms ease-in;
@@ -13,8 +12,8 @@ export const Wrapper = styled.div`
       }
     }
   }
-  @media screen and (max-width: 420px) {
-    margin-top: 35%;
+  @media screen and (min-width: 370px) {
+    padding-top: 30px;
   }
 `;
 
