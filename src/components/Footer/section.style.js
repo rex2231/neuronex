@@ -7,7 +7,10 @@ export const Wrapper = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-color: #e9ebf3;
-
+  .overall-spon {
+    display: flex;
+    flex-direction: column;
+  }
   img {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -16,7 +19,9 @@ export const Wrapper = styled.div`
   .spon {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .sponsors {
     display: flex;
@@ -42,15 +47,14 @@ export const Wrapper = styled.div`
     height: 72vh;
   }
 
-  .buttons {
-    margin-bottom: 40px;
-  }
   @media screen and (min-width: 360px) {
     .sponsors {
       display: flex;
+      justify-content:center;
       gap: 8px;
       margin-left: 5px;
       margin-right: 5px;
+      flex-wrap:wrap;
     }
   }
   @media screen and (max-width: 600px) {
@@ -163,6 +167,7 @@ export const ContentMid = styled.div`
             padding-right: 0;
         }
         .image-container{
+            display:flex;
             max-width: 40vw;
         }
         .image-element {
