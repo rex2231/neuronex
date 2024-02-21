@@ -35,11 +35,12 @@ function FOOTER() {
               ></iframe>
             </div>
           </div>
-          <div>
+          <div className="overall-spon">
             <h1 className="spon">Sponsors</h1>
-              <div className="spon">
-                <img className="image-sponsors" src="images/meridian.png" />
-              </div>
+            <div className="spon">
+              <img className="image-sponsors" src="images/meridian.png" />
+              <h3>V Prakash(Sr.Manager)</h3>
+            </div>
             <div className="sponsors">
               <div>
                 <img className="image-sponsors" src="images/green.png" />
@@ -50,12 +51,15 @@ function FOOTER() {
               <div>
                 <img className="image-sponsors" src="images/bharat.jpg" />
               </div>
+              <div>
+                <img className="image-sponsors" src="images/poorvika.png" />
+              </div>
             </div>
           </div>
         </ContentMid>
       </div>
       <Bottom />
-        <ContentMid></ContentMid>
+      <ContentMid></ContentMid>
     </Wrapper>
   );
 }
