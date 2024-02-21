@@ -16,7 +16,7 @@ const Bottom = () => {
           >
             Instagram
           </a>
-          <a href="" target="_blank">
+          <a href="https://youtu.be/z9NqDmFUkVw?feature=shared" target="_blank">
             Youtube
           </a>
           <a href="https://github.com/rex2231/neuronex" target="_blank">
