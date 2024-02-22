@@ -25,7 +25,7 @@ function FOOTER() {
             </div>
             <div className="image-container">
               <iframe
-                width="376"
+                width="100%"
                 height="250"
                 src="https://www.youtube.com/embed/z9NqDmFUkVw?si=OUzPKWX6WRboUypY"
                 title="YouTube video player"

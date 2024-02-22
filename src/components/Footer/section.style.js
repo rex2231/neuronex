@@ -103,7 +103,7 @@ export const ContentMid = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top:70px;
+    padding-top:10px;
 
     button {
         padding: 12px 20px;
